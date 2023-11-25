@@ -13,7 +13,6 @@ Node<int>* Ejercicio03::copyList(Node<int>* head)
         current->next = newNode;
         current = newNode->next;
     }
-
     current = head;
     while (current) {
         if (current->random) {
